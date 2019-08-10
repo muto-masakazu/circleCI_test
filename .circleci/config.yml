@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Run test
-          command: ruby calculation_spec.rb
+          command: ruby test.rb
 
 workflows:
   version: 2
