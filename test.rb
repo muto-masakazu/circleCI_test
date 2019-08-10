@@ -3,6 +3,6 @@ require './index'
 
 class CalculationTest < Minitest::Test
   def test_sum
-    assert_equal(Calculation.sum(1, 2), 3)
+    assert_equal(Calc.sum(1, 2), 3)
   end
 end
