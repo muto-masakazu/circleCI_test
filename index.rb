@@ -3,6 +3,6 @@ module Calc
         return a + b
     end
     def self.minus(a, b)
-        return a
+        return a - b
     end
 end
