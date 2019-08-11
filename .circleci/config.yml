@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 
 jobs:
   test:
@@ -10,9 +10,3 @@ jobs:
       - run:
           name: Run test
           command: ruby test.rb
-
-workflows:
-  version: 2
-  workflows:
-    jobs:
-      - test
